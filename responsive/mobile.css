@@ -1,0 +1,10 @@
+@media screen and (max-width: 576px) {
+  .bg-imagee {
+    height: 85vh;
+    background-size: 100% 100%;
+  }
+}
+
+#image-responsive {
+  width: 100%;
+}

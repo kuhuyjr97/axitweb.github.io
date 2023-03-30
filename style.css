@@ -1,0 +1,43 @@
+/* Base Css */
+:root {
+  --orange-color: #ff9c51;
+}
+.text-orange {
+  color: var(--orange-color);
+}
+.bg-orange {
+  background: var(--orange-color);
+}
+.navbar i {
+  color: white;
+}
+
+.bg-imagee {
+  width: 100%;
+  height: 50vh;
+  background-size: 100% 100%;
+}
+
+.circle-icon {
+  color: var(--orange-color);
+  border: 4px solid var(--orange-color);
+  border-radius: 50%;
+  padding: 8px;
+}
+
+#orange-line {
+  border-bottom: 4px solid var(--orange-color);
+  max-width: 60px;
+  margin-bottom: 10px;
+}
+#message-padding {
+  padding: 96px 10px;
+}
+
+.white-icon {
+  color: white;
+}
+
+#image-responsive {
+  width: 55%;
+}

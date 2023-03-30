@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fast Coding</title>
+    <!--  Get Bootstap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive/tablet.css">
+    <link rel="stylesheet" href="./responsive/mobile.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container">
+        <a class="navbar-brand text-white fw-bold" href="#">
+          AX <span class="text-warning fw-light">IT</span>
+        </a>
+
+        <button
+          id="navbar-icon"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse ms-auto" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-4">
+              <a class="nav-link text-white" href="#feature">Features</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link text-white" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link text-white" href="#review">Reviews</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Image section  -->
+    <section class="image " id="feature">
+      <div
+        class="bg-imagee text-center text-white"
+        style="background-image: url('./assets/images/tokyo-night.png')"
+      >
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-sm-6 col-lg-8">
+              <div class="left-content text-lg-start">
+                <h1 class="mb-3 h1 fw-bolder">
+                  AX <span class="fw-lighter text-orange">IT</span>
+                </h1>
+                <h4>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h4>
+                <div id="orange-line"></div>
+
+                <p class="pt-4">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Repellendus praesentium labore accusamus sequi, voluptate
+                  debitis tenetur in deleniti possimus modi voluptatum neque
+                </p>
+
+                <button
+                  type="button"
+                  class="btn border-3 btn-outline-light fw-bold mt-sm-4 mt-0 mb-3"
+                >
+                  Download
+                </button>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+              <div class="card">
+                <div class="card-header bg-transparent border-success">
+                  <h5 class="text-dark fw-bold">
+                    Try Your
+                    <span class="text-orange fw-bolder">FREE </span> Trial Today
+                  </h5>
+                </div>
+
+                <div class="register-content text-secondary px-5">
+                  <div class="form-floating mb-1">
+                    <input
+                      type="text"
+                      class="form-control border-top-0 border-end-0 border-start-0 p-0"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">Name</label>
+                  </div>
+
+                  <div class="form-floating mb-1">
+                    <input
+                      type="email"
+                      class="form-control border-top-0 border-end-0 border-start-0 p-0"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">Email</label>
+                  </div>
+
+                  <div class="form-floating mt-3">
+                    <input
+                      type="email"
+                      class="form-control border-top-0 border-end-0 border-start-0 p-0"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">Password</label>
+                  </div>
+                </div>
+
+
+                <a href="#" class="text-decoration-none text-white fw-bold"
+                >
+                <div class="card-footer bg-orange border-success">
+                Get Started
+                  
+                </div>
+                </a>              
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content 1 -->
+    <section id="about" class="content-1  py-5" style="background-color: #efefee;">
+      <div class="container py-lg-5">
+        <div class="row">
+          <div class="col-12 col-lg-1">
+            <!-- 3 buttons -->
+            <div class="btn-group-vertical d-none d-lg-block" role="group" aria-label="Vertical button group">
+              <button type="button " class="btn active btn-secondary px-3 py-4">TAB 1</button>
+              <button type="button" class="btn btn-secondary px-3 py-4">TAB 2</button>
+              <button type="button" class="btn btn-secondary px-3 py-4">TAB 3</button>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-11 px-lg-5">
+           
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <!-- <img src="/assets/images/japan-mountain.jpg" class="d-block w-100" alt="..."> -->
+                   <div class="row">
+                    <div class="col-12 col-sm-7 text-justify">
+                      <h6>Tabs with soft transitioning effect. </h6>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla officia repellendus velit quaerat! Totam, soluta dolor odio ipsam eaque non. <br> <br>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dignissimos omnis atque quia!</p>
+
+                      <button
+                      type="button"
+                      class="btn border-3 bg-orange text-white fw-bold  mt-sm-4 mt-0 mb-3 "
+                    > 
+                      Download
+                      </button>
+                    </div>
+
+                    <div class="col-12 col-sm-5  px-lg-5 ">
+                      <img src="./assets/images/78786.jpg" class="img-fluid" alt="">
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-12 col-sm-7 text-justify">
+                      <h6>Tabs with soft transitioning effect. </h6>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla officia repellendus velit quaerat! Totam, soluta dolor odio ipsam eaque non. <br> <br>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dignissimos omnis atque quia!</p>
+
+                      <button
+                      type="button"
+                      class="btn border-3 bg-orange text-white fw-bold  mt-sm-4 mt-0 mb-3 "
+                    > 
+                      Download
+                      </button>
+                    </div>
+
+                    <div class="col-12 col-sm-5  px-lg-5 ">
+                      <img src="./assets/images/japan-mountain.jpg" class="img-fluid" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-12 col-sm-7 text-justify">
+                      <h6>Tabs with soft transitioning effect. </h6>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla officia repellendus velit quaerat! Totam, soluta dolor odio ipsam eaque non. <br> <br>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dignissimos omnis atque quia!</p>
+
+                      <button
+                      type="button"
+                      class="btn border-3 bg-orange text-white fw-bold  mt-sm-4 mt-0 mb-3 "
+                    > 
+                      Download
+                      </button>
+                    </div>
+
+                    <div class="col-12 col-sm-5  px-lg-5 ">
+                      <img src="./assets/images/tokyo-building.jpg" class="img-fluid" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+                  </div>
+            
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content with images -->
+    <section id= "pricing" class="content-image">
+      <div class="container py-5 ">
+        <div class="row">
+          <div class="col-lg-6 col-12 p-lg-5 ">
+            <img
+              src="./assets/images/tokyo-building.jpg"
+              alt="image in content section"
+              class="img-fluid  px-lg-5"
+            />
+          </div>
+
+          <div class="col-lg-6 col-12 p-lg-5">
+            <div class="card border-0" >
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Sub lists section</h5>
+                <div id="orange-line"></div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum dignissimos delectus repellendus explicabo sunt? Optio
+                </p>
+              </div>
+              <ul class="list-group list-group-flush border-0">
+                <li class="list-group-item border-0">
+                  <div class="row">
+                    <div class="col-3" style="text-align: center">
+                      <i class="circle-icon fa-solid fa-cloud-arrow-up"></i>
+                    </div>
+                    <div class="col-9">
+                      <h6>Title</h6>
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      <p></p>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="list-group-item border-0">
+                  <div class="row">
+                    <div class="col-3" style="text-align: center">
+                      <i class="circle-icon fa-solid fa-cloud-arrow-up"></i>
+                    </div>
+                    <div class="col-9">
+                      <h6>Title</h6>
+                      Lorem ipsum dolor sit amet consectetur adipisicing alksmd kqkasdsa aksdm
+                      <p></p>
+                    </div>
+                  </div>
+                </li>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  Content image with REVERSED content -->
+    <section class="content-image bg-light">
+        <div class="container py-5">
+          <div class="row">            
+  
+            <div class="col-lg-6 col-12 p-lg-5 ">
+              <div class="card border-0 bg-light" >
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Standard Picture Section</h5>
+                  <div id="orange-line"></div>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laborum dignissimos delectus repellendus explicabo sunt? Optio
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores laborum deleniti et.
+
+                  </p>
+                </div>
+               
+                
+              </div>
+            </div>
+            <div class="col-lg-6 col-12 p-lg-5 ">
+              <img
+                src="./assets/images/japanstreet.jpg"
+                alt="image in content section"
+                class="img-fluid  px-lg-5"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHY THIS IS AWESOME CONTENT  -->
+      <section id="review" class="more-content">
+        <div class="container text-center pt-3 py-lg-5">
+          <div class="row ">
+            <div class="col-12 py-lg-5 ">
+              <h1>WHY THIS IS AWESOME</h1>
+              <div id="orange-line" class="mx-auto"></div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+          <div class="row pb-lg-5">
+            <div class="col-12 col-lg-4 ">
+              <div class="list-item">
+                <i class="fa-regular fa-lightbulb circle-icon p-3 border-3 h4" ></i>
+                <h1 class="py-2 py-lg-4">Thoughtful Design</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo fugiat minima magnam odio deleniti maiores.</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-4 ">
+              <div class="list-item">
+                <i class="fa-regular fa-keyboard circle-icon p-3 border-3 h4" ></i>
+                  <h1 class="py-2 py-lg-4">Well Crafted</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo fugiat minima magnam odio deleniti maiores.</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-4 ">
+              <div class="list-item">
+                <i class="fa-solid fa-bolt circle-icon p-3 border-3 h4" ></i>
+                <h1 class="py-2 py-lg-4">Easy to Customize</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo fugiat minima magnam odio deleniti maiores.</p>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- DOWNLOAD SECTION -->
+        <section class="download  h-25 bg-imagee text-center text-white my-5"
+        style="background-image: url('./assets/images/tokyo-moutain.png')">
+          <div class="row ">
+            <div class="col-12 py-lg-5 ">
+              <h1>STYLISH AXURE DESIGN</h1>
+              <div id="orange-line" class="mx-auto"></div>
+              <p>Use the sections you need remove the ones you don't. Create gorgeous prototypes faster than ever.</p>
+              <button
+              type="button"
+              class="btn border-3 btn-outline-light fw-bold mt-sm-4 mt-0 "
+            > 
+              Download 
+            </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact   text-center pb-5">
+        <div class="container py-lg-5">
+          <div class="row p ">
+            <div class="col-12 py-lg-5 ">
+              <h1>CONTACT US</h1>
+              <div id="orange-line" class="mx-auto"></div>
+              <p>Lorem ipsum dolor sit amet. kamsdlk  alskasdk.</p>
+
+              <div class="row py-lg-5">
+                <div class="col-12 col-lg-6">
+                  <div class="form-floating mb-1">
+                    <input
+                      type="text"
+                      class="form-control border-top-0 border-end-0 border-start-0 p-0"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">Name</label>
+                  </div>
+
+                  <div class="form-floating mb-1">
+                    <input
+                      type="email"
+                      class="form-control border-top-0 border-end-0 border-start-0 p-0"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">Email</label>
+                  </div>
+
+                  <div class="form-floating mt-3">
+                    <input
+                      type="text"
+                      class="form-control border-top-0 border-end-0 border-start-0 p-0"
+                      id="floatingInput"
+                      placeholder="name@"
+                    />
+                    <label for="floatingInput">Subject</label>
+                  </div>
+                </div>   
+                
+                <div class="col-12 col-lg-6">
+                  <div class="form-floating ">
+                    <input
+                      type="text"
+                      class="form-control border-top-0 border-end-0 border-start-0 message-padding"
+                      id="message-padding"
+                      placeholder="name@"
+                    />
+                    <label  for="floatingInput">Message</label>
+                  </div>
+                </div>
+               </div>
+              </div>
+
+            </div>
+
+              <button
+              type="button"
+              class="btn border-3 bg-orange text-white fw-bold mt-sm-4 mt-0 mb-3"
+            > 
+              Send Message
+            </button>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <!-- FOOTER SECTION -->
+
+        <footer class="text-center bg-dark  " >
+          <!-- Grid container -->
+          <div class="container text-white">
+            <!-- Section: Social media -->
+            <section >
+              <!-- Facebook -->
+              <a
+                class="btn btn-link btn-floating btn-lg text-dark m-0 m-sm-1 px-2 px-sm-2"
+                href="#!"
+                role="button"
+                ><i class="fab fa-facebook-f white-icon"></i
+              ></a>
+        
+              <!-- Twitter -->
+              <a
+                class="btn btn-link btn-floating btn-lg text-dark m-0 m-sm-1 px-2 px-sm-2"
+                href="#!"
+                role="button"
+                ><i class="white-icon fab fa-twitter"></i
+              ></a>
+        
+              <!-- Google -->
+              <a
+                class="btn btn-link btn-floating btn-lg text-dark m-0 m-sm-1 px-2 px-sm-2"
+                href="#!"
+                role="button"
+                ><i class="white-icon fa-brands fa-google-plus-g"></i
+              ></a>
+              <!-- Blog -->
+              <a
+                class="btn btn-link btn-floating btn-lg text-dark m-0 m-sm-1 px-2 px-sm-2"
+                href="#!"
+                role="button"
+                ><i class="white-icon fa-solid fa-blog"></i
+              ></a>
+        
+              <!-- Instagram -->
+              <a
+                class="btn btn-link btn-floating btn-lg text-dark m-0 m-sm-1 px-2 px-sm-2"
+                href="#!"
+                role="button"
+                ><i class="white-icon fab fa-instagram"></i
+              ></a>
+        
+              <!-- Connect -->
+              <a
+                class="btn btn-link btn-floating btn-lg text-dark m-0 m-sm-1 px-2 px-sm-2"
+                href="#!"
+                role="button"
+                ><i class="white-icon fa-solid fa-rss"></i
+              ></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center text-dark p-3 text-white" >
+            © 2021 Axure Themes:
+          </div>
+          <!-- Copyright -->
+        </footer>
+        
+    <!-- Bootstrap bunle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
